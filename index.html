@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>The cats app</title>
+  <title>Список завдань</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>The Cats App</h1>
-  <div class="gallery">
-    <img src="cat1.jpg" alt="cat1">
-    <img src="cat2.jpg" alt="cat2">
-	 <img src="cat3.jpg" alt="cat3">
+  <div class="task-box">
+    <h1>Список завдань</h1>
+    <ul class="task-list">
+      <li class="done">
+        <span class="icon">✔</span>
+        <span class="text">Опанувати HTML та CSS</span>
+      </li>
+      <li class="done">
+        <span class="icon">✔</span>
+        <span class="text">Опанувати Git та GitHub</span>
+      </li>
+      <li class="todo">
+        <span class="icon">◯</span>
+        <span class="text">Опанувати JavaScript</span>
+      </li>
+      <li class="todo">
+        <span class="icon">◯</span>
+        <span class="text">Опанувати Node.js</span>
+      </li>
+    </ul>
   </div>
 </body>
 </html>

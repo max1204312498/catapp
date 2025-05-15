@@ -1,21 +1,46 @@
 body {
-  text-align: center;
-  background-color: aquamarine;
-}
+    background-color: #eafaf1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  
+  .task-box {
+    background-color: #fff;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: green;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .done .text {
+    text-decoration: line-through;
+  }
 
-h1 {
-  margin-top: 20px;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.gallery img {
-  width: 350px;
-  height: auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
